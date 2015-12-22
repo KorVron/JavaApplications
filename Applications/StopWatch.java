@@ -1,5 +1,3 @@
-package <Your Package Name>;
-
 /**
  * Author: KorVron
  * GitHub: https://github.com/KorVron/
@@ -13,6 +11,7 @@ package <Your Package Name>;
  * 
  *       Invoke method waitTime();:
  *       waitTime(<Amount of Time>,<Object Name>.<Time Type: S/M,  S = Seconds, M =Minutes.>);
+ *       Time must be capital S or M.
  * 
  *       Example, pauses the program for one second:
  *       StopWatch SW = new StopWatch();
@@ -21,6 +20,8 @@ package <Your Package Name>;
  *       System.out.println("Waited for one second!");
  **/
  
+package <Package Name>;
+
 public class StopWatch {
     final String S = "seconds",  M = "minutes";
     void waitTime(int timeLength, String timeType) {
